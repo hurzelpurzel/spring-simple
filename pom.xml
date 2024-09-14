@@ -64,7 +64,13 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-
+	<distributionManagement>
+	    <repository>
+	      <id>hurzelpurzel</id>
+	      <name>GitHub Packages</name>
+	      <url>https://maven.pkg.github.com/hurzelpurzel/spring-simple</url>
+	    </repository>
+	  </distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
